@@ -12,7 +12,7 @@ export default function Amin() {
 		<div>
 			<Head>
 				<title>Amin & Wilson-Wassta</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
 				<Header setOpen={setOpen} open={open} />

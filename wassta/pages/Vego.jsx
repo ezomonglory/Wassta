@@ -12,7 +12,7 @@ export default function Vego() {
 		<div>
 			<Head>
 				<title>Vego Cafe-Wassta</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
 				<Header setOpen={setOpen} open={open} />

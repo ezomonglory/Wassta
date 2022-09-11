@@ -12,7 +12,7 @@ export default function Walled() {
 		<div>
 			<Head>
 				<title>Walled-Wassta</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
 				<Header setOpen={setOpen} open={open} />

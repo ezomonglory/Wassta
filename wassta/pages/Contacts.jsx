@@ -16,7 +16,7 @@ function Contacts() {
 		<div>
 			<Head>
 				<title>Contact-Wassta</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative bg-gray-100 bgGray'>
 				<Header setOpen={setOpen} open={open} />

@@ -12,7 +12,7 @@ export default function Bombay() {
 		<div>
 			<Head>
 				<title>Bombay ChowPatty-Wassta</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
 				<Header setOpen={setOpen} open={open} />

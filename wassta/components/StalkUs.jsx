@@ -18,12 +18,15 @@ function StalkUs() {
 						<h2 className='text-pink-300 text-lg '>@Wassta</h2>
 					</div>
 				</a>
-				<div className=' grid  grid-cols-1 md:grid-cols-2 space-y-4  lg:grid-cols-3 space-x-4 w-full mx-auto justify-center items-center '>
+				<div className=' grid  grid-cols-1 md:grid-cols-2 space-y-4  lg:grid-cols-3 md:space-x-4 w-full mx-auto justify-center items-center '>
+					
+
+					
+
 					<div
 						style={{
 							display: "flex",
-							justifyContent: "center",							
-							borderColor: "yellow",
+							justifyContent: "center",
 						}}
 						className='overflow-hidden'
 					>
@@ -37,7 +40,7 @@ function StalkUs() {
 					<div
 						style={{
 							display: "flex",
-							justifyContent: "center",							
+							justifyContent: "center",
 						}}
 						className='overflow-hidden'
 					>
@@ -51,7 +54,7 @@ function StalkUs() {
 					<div
 						style={{
 							display: "flex",
-							justifyContent: "center",							
+							justifyContent: "center",
 						}}
 						className='overflow-hidden'
 					>
@@ -65,9 +68,9 @@ function StalkUs() {
 					<div
 						style={{
 							display: "flex",
-							justifyContent: "center",							
+							justifyContent: "center",
 						}}
-						className=''
+						className='overflow-hidden'
 					>
 						<InstagramEmbed
 							url='https://www.instagram.com/p/Ch9oAA8JMf5/'
@@ -79,9 +82,9 @@ function StalkUs() {
 					<div
 						style={{
 							display: "flex",
-							justifyContent: "center",							
+							justifyContent: "center",
 						}}
-						className=''
+						className='overflow-hidden'
 					>
 						<InstagramEmbed
 							url='https://www.instagram.com/p/CZ9ceH0JYiZ/'
@@ -93,9 +96,9 @@ function StalkUs() {
 					<div
 						style={{
 							display: "flex",
-							justifyContent: "center",							
+							justifyContent: "center",
 						}}
-						className=''
+						className='overflow-hidden'
 					>
 						<InstagramEmbed
 							url='https://www.instagram.com/p/CbMqgVooNL1/'
