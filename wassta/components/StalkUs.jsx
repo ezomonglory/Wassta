@@ -18,94 +18,74 @@ function StalkUs() {
 						<h2 className='text-pink-300 text-lg '>@Wassta</h2>
 					</div>
 				</a>
-				<div className=' grid  grid-cols-1 md:grid-cols-2 space-y-4  lg:grid-cols-3 md:space-x-4 w-full mx-auto justify-center items-center '>
-					
+				<div className=' grid mt-6  grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6 w-full mx-auto justify-center items-center '>
+					<a href='https://www.instagram.com/p/Ch9oAA8JMf5/' target='_blank'>
+						<div className='stalk1 w-full rounded-lg '></div>
+					</a>
+					<a href='https://www.instagram.com/p/Ch9oAA8JMf5/' target='_blank'>
+						<div className='stalk2 w-full rounded-lg relative flex items-center justify-center '>
+							<svg
+								xmlns='http://www.w3.org/2000/svg'
+								fill='white'
+								viewBox='0 0 24 24'
+								stroke-width='1.5'
+								stroke='white'
+								className='w-20 h-20 mx-auto absolute'
+							>
+								<path
+									stroke-linecap='round'
+									stroke-linejoin='round'
+									d='M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z'
+								/>
+							</svg>
+						</div>
+					</a>
 
-					
+					<a href='https://www.instagram.com/tv/Cd-3svEIMSA/' target='_blank'>
+						<div className='stalk3 w-full rounded-lg flex items-center justify-center '>
+                        <svg
+								xmlns='http://www.w3.org/2000/svg'
+								fill='white'
+								viewBox='0 0 24 24'
+								stroke-width='1.5'
+								stroke='white'
+								className='w-20 h-20 mx-auto absolute'
+							>
+								<path
+									stroke-linecap='round'
+									stroke-linejoin='round'
+									d='M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z'
+								/>
+							</svg>
+                        </div>
+					</a>
 
-					<div
-						style={{
-							display: "flex",
-							justifyContent: "center",
-						}}
-						className='overflow-hidden'
-					>
-						<InstagramEmbed
-							url='https://www.instagram.com/p/Ch5Fp9RJXAe/'
-							retryDelay={2000}
-							width={328}
-						/>
-					</div>
+					<a href='https://www.instagram.com/reel/Ccf4lVRoibw/' target='_blank'>
+						<div className='stalk4 w-full rounded-lg flex items-center justify-center '>
+                        <svg
+								xmlns='http://www.w3.org/2000/svg'
+								fill='white'
+								viewBox='0 0 24 24'
+								stroke-width='1.5'
+								stroke='white'
+								className='w-20 h-20 mx-auto absolute'
+							>
+								<path
+									stroke-linecap='round'
+									stroke-linejoin='round'
+									d='M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z'
+								/>
+							</svg>
+                        </div>
+					</a>
 
-					<div
-						style={{
-							display: "flex",
-							justifyContent: "center",
-						}}
-						className='overflow-hidden'
-					>
-						<InstagramEmbed
-							url='https://www.instagram.com/p/Cd-3svEIMSA/'
-							retryDelay={2000}
-							width={328}
-						/>
-					</div>
+					<a href='https://www.instagram.com/p/CbMqgVooNL1/' target='_blank'>
+						<div className='stalk5 w-full rounded-lg '></div>
+					</a>
 
-					<div
-						style={{
-							display: "flex",
-							justifyContent: "center",
-						}}
-						className='overflow-hidden'
-					>
-						<InstagramEmbed
-							url='https://www.instagram.com/p/Ccf4lVRoibw/'
-							retryDelay={2000}
-							width={328}
-						/>
-					</div>
-
-					<div
-						style={{
-							display: "flex",
-							justifyContent: "center",
-						}}
-						className='overflow-hidden'
-					>
-						<InstagramEmbed
-							url='https://www.instagram.com/p/Ch9oAA8JMf5/'
-							retryDelay={2000}
-							width={328}
-						/>
-					</div>
-
-					<div
-						style={{
-							display: "flex",
-							justifyContent: "center",
-						}}
-						className='overflow-hidden'
-					>
-						<InstagramEmbed
-							url='https://www.instagram.com/p/CZ9ceH0JYiZ/'
-							retryDelay={2000}
-							width={328}
-						/>
-					</div>
-
-					<div
-						style={{
-							display: "flex",
-							justifyContent: "center",
-						}}
-						className='overflow-hidden'
-					>
-						<InstagramEmbed
-							url='https://www.instagram.com/p/CbMqgVooNL1/'
-							retryDelay={2000}
-							width={328}
-						/>
-					</div>
+					<a href='https://www.instagram.com/p/CZ9ceH0JYiZ/' target='_blank'>
+						<div className='stalk6 w-full rounded-lg '></div>
+					</a>
 				</div>
 			</div>
 

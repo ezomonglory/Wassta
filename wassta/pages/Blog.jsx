@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Init from "../components/InitHeader";
 import SideBar from "../components/SideBar";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,8 +16,9 @@ export default function Blog() {
 				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
+				<Init  setOpen={setOpen} open={open} />
 				<Header setOpen={setOpen} open={open} />
-				{open ? <SideBar setOpen={setOpen} open={open} /> : " "}
+				<SideBar setOpen={setOpen} open={open} /> 
 				<div className='w-full space-y-24 pt-40 lg:w-[90%] mx-auto justify-center items-center flex flex-col mb-12 p-2'>
 					<div className='grid grid-cols-1 md:grid-cols-2 gap-x-2 gap-y-4'>
 						<div>

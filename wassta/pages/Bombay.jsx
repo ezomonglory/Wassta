@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Init from "../components/InitHeader";
 import SideBar from "../components/SideBar";
 import Image from "next/image";
 import Share from "../components/Share";
@@ -15,8 +16,9 @@ export default function Bombay() {
 				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
+				<Init  setOpen={setOpen} open={open} />
 				<Header setOpen={setOpen} open={open} />
-				{open ? <SideBar setOpen={setOpen} open={open} /> : " "}
+				<SideBar setOpen={setOpen} open={open} /> 
 				<div className='w-full space-y-6  pt-24 lg:pt-40 lg:w-[90%] mx-auto justify-center items-center  mb-12 p-2 '>
 					<h1 className='ph text-left'>Bombay ChowPatty</h1>
 					<p className='pt'>

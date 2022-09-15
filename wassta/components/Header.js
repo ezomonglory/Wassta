@@ -7,34 +7,33 @@ import NavLink from "./NavLink";
 function Header({ setOpen, open }) {
 
 
-	// const large = () => {
-	// 	{			
-	// 		window.onscroll = () => {
-	// 			if (
-	// 				document.body.scrollTop > 20 ||
-	// 				document.documentElement.scrollTop > 20
-	// 			) {
-	// 				headRef.current.style.top = "0";
-	// 			} else {
-	// 				headRef.current.style.top = "-60%";
-	// 			}
-	// 		};
-	// 	}
-	// };
+	useEffect (() => {
+		{			
+			window.onscroll = () => {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					headRef.current.style.top = "0";
+                    headRef.current.style.transition= "all .2s "
+				} else {
+					headRef.current.style.top = "-15%";
+				}
+			};
+		}
+	});
 
-	// if (typeof window !== "undefined" && window.screen.width > 1027) {
-	// 	large();
-	// }
 
-	const headRef = useRef();
+	const headRef = useRef();    
+	
 	return (
 		<div
-			className='bg-black  w-full flex justify-between  items-center px-8 fixed z-40'
+			className='bg-black hidden md:flex  w-full justify-between  items-center px-8 fixed z-40 top-[-15%]'
 			ref={headRef}
 		>
 			<NavLink href='/'>
 				<div className='relative w-[40%] h-[40%] cursor-pointer '>
-					<Image src='/image/wasta.png' width={200} height={100} c />
+					<Image src='/image/wasta.png' width={200} height={100}  />
 				</div>
 			</NavLink>
 

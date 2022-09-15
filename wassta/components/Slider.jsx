@@ -10,16 +10,16 @@ function Slider() {
 				data-bs-ride='carousel'
 			>
 				<div className='carousel-inner relative w-full overflow-hidden text-center '>
-					<div className='carousel-item active relative float-left w-full text-gray-700  text-[1.5rem] lg:text-[2.5rem] sli text-center hea fade mt-[4rem] lg:mt-[2rem]'>
-						Converting  crowds into 
+					<div className='carousel-item active relative float-left w-full text-gray-700   sli text-center  fade mt-[4rem] md:mt-[2rem] md:text-[50px] lg:text-[66px]'>
+						Converting <br/> crowds into <br/>
 						clients
 					</div>
-					<div className='carousel-item relative float-left w-full text-gray-700  text-[1.5rem] lg:text-[2.5rem] sli text-center hea fade mt-[3rem] lg:mt-0'>
-						It's not about  who you  know,<br/> it's about who  knows you
+					<div className='carousel-item relative float-left w-full text-gray-700   sli text-center  fade mt-[3rem] md:mt-0 md:text-[50px] lg:text-[66px]'>
+						It's not about <br/> who you <br/> know, it's who <br/> knows you
 					</div>
-					<div className='carousel-item relative float-left w-full text-gray-700   text-[1.5rem] lg:text-[2.5rem] sli text-center hea fade mt-[6rem] lg:mt-[4rem]'>
+					<div className='carousel-item relative float-left w-full text-gray-700    sli text-center  fade mt-[6rem] md:mt-[4rem] md:text-[50px] lg:text-[66px]'>
 						{" "}
-						You need  Waassta
+						You need <br/> Waassta
 					</div>
 				</div>
 			</div>

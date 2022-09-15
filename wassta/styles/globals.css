@@ -6,6 +6,15 @@
 	background-color: pink;
 }
 
+.hove {
+    transform: translateX(90%);
+}
+
+.navhov:hover .hove{
+    transform: translateX(0);
+    transition: all .4s ease-in;
+}
+
 .hov:hover {
 	color: pink;
 }
@@ -41,9 +50,21 @@
 }
 
 .sli {
-	font-weight: 300;
-	/* line-height: 92px; */
 	font-family: "MIc-32 regular", Sans-serif;
+    font-weight: 300;
+    line-height: 92px;
+	letter-spacing: 0.8px;
+	font-size: 66px;
+}
+
+@media (max-width: 764px){
+    .sli {
+        font-family: "MIc-32 regular", Sans-serif;
+        font-weight: 300;
+        line-height: 50px;
+        letter-spacing: 0.8px;
+        font-size: 30px;
+    }
 }
 
 .left {
@@ -220,7 +241,7 @@
 }
 
 .proj18 {
-	background: url("/image/proj18.png");
+	background: url("/image/proj18.png");    
 	background-size: cover;
 	object-fit: cover;
 }
@@ -279,6 +300,10 @@
 	letter-spacing: 1.3px;
 }
 
+.side{
+    transform: translateX(-200%);
+}
+
 @media (max-width: 500px) {
 	.side {
 		width: 70%;
@@ -305,7 +330,7 @@
 	overflow: hidden;
 }
 
-.hea {
+.hove {
 	font-family: "Mic-32 Regular", Sans-serif !important;
 	/* font-size: 13px; */
 	font-weight: 600;
@@ -323,4 +348,160 @@
 	/* top: -60%; */
 	transform: translateY(0);
 	transition: all 0.7s;
+}
+
+.homPar{
+	text-align: center;
+    font-family: "Montserrat", Sans-serif;    
+    font-weight: 400;
+    line-height: 1.7em;
+    letter-spacing: 0.7px;
+}
+
+
+
+
+/* .card:hover .cardText{
+    display: flex;
+    transform: translateX(0);
+    transition: all .1s;
+} */
+
+
+@keyframes leftcard {
+	0% {
+		transform: translateX(-20rem);
+	}
+
+	100% {
+		transform: translateX(0rem);
+	}
+}
+
+
+.cardText {
+    /* animation: leftcard 0.1s ease-in; */
+}
+
+.stalk1{
+    height: 319px;
+    background-image: url("/image/stal2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.stalk2{
+    height: 319px;
+    background-image: url("/image/stal1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.stalk3{
+    height: 319px;
+    background-image: url("/image/stal3.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.stalk4{
+    height: 319px;
+    background-image: url("/image/stal4.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+
+.stalk5{
+    height: 319px;
+    background-image: url("/image/stal5.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.stalk6{
+    height: 319px;
+    background-image: url("/image/stal6.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+
+@keyframes ryt {
+    0% {
+        transform: translateX(-200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.ryt{
+    animation: ryt .5s ease-in;
+}
+
+/* overlay stauff */
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.boxes{
+    display: block;
+    width: 100%;
+    height: 50vh;    
+    position: relative;
+    overflow: hidden;
+    /* float: left; */
+    margin: 1.5%;
+    cursor: pointer;
+}
+.da-image{
+   min-height: 100%;
+   width: 100%;
+}
+.overlay{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 10;
+}
+
+.container{
+    width: 1170px;
+    display: block;
+    margin: auto;
 }

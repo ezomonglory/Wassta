@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Init from "../components/InitHeader";
 import SideBar from "../components/SideBar";
 import Image from "next/image";
 import ServGrid from "../components/ServGrid";
@@ -16,8 +17,9 @@ export default function Services() {
 				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
+				<Init  setOpen={setOpen} open={open} />
 				<Header setOpen={setOpen} open={open} />
-				{open ? <SideBar setOpen={setOpen} open={open} /> : " "}
+				<SideBar setOpen={setOpen} open={open} /> 
 				<div className='w-full space-y-12 pt-40 lg:w-[70%] mx-auto justify-center items-center flex flex-col mb-12 p-2'>
 					<Image src='/image/serv.png' width={500} height={150} />
 					<h2 className='text-center serv'> Our bread & butter</h2>

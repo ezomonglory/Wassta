@@ -7,8 +7,8 @@ function Clients() {
 			<h1 className='text-black abt text-center text-[30px] uppercase'>
 				Clients
 			</h1>
-			<p className='text-2xl par text-gray-400 mb-6'>
-            We put the user at the heart of our strategy to deliver the best -of-bread campaigns and experiences. If you’d like to know more,  explore some of our recent projects or simply get in touch!
+			<p className='homPar text-[18px] md:text-[21px] text-gray-400 mb-6'>
+            We put the user at the heart of our strategy to deliver the best-of-bread campaigns and experiences. If you’d like to know more,  explore some of our recent projects or simply get in touch!
 			</p>
 
             <Link href="/Projects">

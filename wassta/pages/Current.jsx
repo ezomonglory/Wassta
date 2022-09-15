@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Init from "../components/InitHeader";
 import SideBar from "../components/SideBar";
 import Image from "next/image";
 import ServGrid from "../components/ServGrid";
@@ -16,8 +17,9 @@ export default function Current() {
 				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
+				<Init  setOpen={setOpen} open={open} />
 				<Header setOpen={setOpen} open={open} />
-				{open ? <SideBar setOpen={setOpen} open={open} /> : " "}
+				<SideBar setOpen={setOpen} open={open} /> 
 				<div className='w-full space-y-4 pt-40 lg:w-[90%] mx-auto flex flex-col mb-12 p-2 text-gray-500 text-md leading-8'>
 					<h1 className='pink text-2xl text-left '>
 						{" "}

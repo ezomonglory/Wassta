@@ -7,12 +7,12 @@ import Slider from "./Slider";
 
 function HomePage() {    
 	return (
-		<div className='bg h-[95vh] w-full text-white pt-[5rem] lg:pt-[8rem] flex flex-col  lg:items-center relative  p-2 justify-between lg:justify-center '>
-						<div className=' h-[35vh] w-[100%] '>
+		<div className='bg h-[95vh] w-full text-white pt-[5rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 md:items-center relative  p-2 justify-between md:justify-center '>
+						<div className=' h-[35vh] md:-mt-[5rem]  '>
 							<Slider />
 						</div>
 						
-						<div className='relative w-full lg:h-full h-[40vh]  md:w-[70%] md:mx-auto lg:w-[50%]'>
+						<div className='relative w-full md:h-[50vh] h-[40vh]  md:mx-auto '>
 							<Image src='/image/banner.png' layout='fill' />
 						</div>
 					</div>

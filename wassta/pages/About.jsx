@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Init from "../components/InitHeader";
 import SideBar from "../components/SideBar";
 import Image from "next/image";
 import Team from "../components/Team";
@@ -16,14 +17,15 @@ export default function About() {
 				<link rel='icon' href='/image/favicon.ico' />
 			</Head>
 			<main className='relative'>
+				<Init  setOpen={setOpen} open={open} />
 				<Header setOpen={setOpen} open={open} />
-				{open ? <SideBar setOpen={setOpen} open={open} /> : " "}
+				<SideBar setOpen={setOpen} open={open} /> 
 				<div className='w-full space-y-24 pt-40 lg:w-[70%] mx-auto justify-center items-center flex flex-col mb-12 p-2'>
 					<Image src='/image/story.png' width={300} height={100} />
 					<div className='relative w-full md:h-[60vh] h-[30vh] '>
 						<Image src='/image/abt-banner.png' layout='fill' />
 					</div>
-					<p className='abtpa text-left'>
+					<p className='text-gray-700 text-left' style={{fontFamily:  "Roboto,Sans-serif"}}>
 						‘Bespoke, Candid, Driven’ are our core values. These are the words
 						we live by in everything we do. Waassta reflects a shift in how
 						people, brands and organisations communicate in the digital age. We
@@ -46,7 +48,7 @@ export default function About() {
 						prices for our services to level the playing field.
 					</p>
                     <div>
-                        <h2 className="uppercase abthe text-center mb-8">our Team</h2>
+                        <h2 className="uppercase abthe text-center mb-8" >our Team</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
                             {teamData.map((data)=> <Team image={data.image} name={data.name} title={data.title} text={data.text} />)}
                         </div>
