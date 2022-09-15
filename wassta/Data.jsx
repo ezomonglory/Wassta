@@ -103,7 +103,7 @@ export const ProjData = [
 		link:"/Heart-harvest",
 		head:"Heart-Harvest",
 		text:"An organic social media strategy that focuses on video content and influencer collaborations in targeted cities in the USA.",
-		image:"/image/proj3.jpg"
+		image:"/image/hr2.png"
 	},
 
 	{
@@ -125,7 +125,7 @@ export const ProjData = [
 		link:"/Koala",
 		head:"Koala Picks",
 		text:"Crafting crisp, clear & strategy-driven content that takes their creative goals to the next level. And above all, looks fantastic.",
-		image:"/image/proj6.jpg"
+		image:"/image/k4.png"
 	},
 
 	{
@@ -188,28 +188,28 @@ export const ProjData = [
 		link:"/Moltocare",
 		head:"Moltocare",
 		text:"An eco friendly Dubai based company that offers high professionsal disinfection and air duct cleaning services for corporate and private sectors",
-		image:"/image/proj15.jpg"
+		image:"/image/molt5.jpg"
 	},
 
 	{
 		link:"/Vego",
 		head:"Vego Cafe",
 		text:"Away from the hustle and bustle scene is a friendly neighbourhood cafe & confectionery offering %100 mouthwatering vegetarian dishes, freshly baked egg-less pastries and refreshing beverages - they have something to fit everyone's fancy",
-		image:"/image/proj16.jpg"
+		image:"/image/proj17.jpg"
 	},
 	
 	{
 		link:"/Bombay",
 		head:"Bombay Chowpatty",
 		text:"Representing food from all parts of india,Bombay Chowpatty is known for its vibrant taste, diversity and easy accessibility in the UAE",
-		image:"/image/proj17.jpg"
+		image:"/image/proj16.jpg"
 	},
 
 	{
 		link:"/Support",
 		head:"Support Small Initiative",
 		text:"Our own concept campaigns that was initiated in support of all small businesses that suffered due to 2020 global pandemic",
-		image:"/image/proj18.jpg"
+		image:"/image/proj18.png"
 	},
 
 	{
@@ -223,6 +223,6 @@ export const ProjData = [
 		link:"/Maya",
 		head:"Maya & Mosha",
 		text:"An educative app that brings indian children linving abroad closer to their home and thier roots! Maya & Mosha takes kids on a compelling journey through india and teaches them all about its history and culture",
-		image:"/image/proj20.jpg"
+		image:"/image/proj20.png"
 	},
 ]

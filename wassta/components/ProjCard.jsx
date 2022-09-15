@@ -1,8 +1,9 @@
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import Image from "next/image";
 
-function ProjCard({ link, text, classs, head }) {
+function ProjCard({ link, text, image, head }) {
 	const Ref = useRef();
 
 	//Detect Closest Edge
@@ -111,8 +112,8 @@ function ProjCard({ link, text, classs, head }) {
 	return (
 		
 
-		<div className='boxes overflow-hidden rounded-lg'>
-			<div className={`${classs} da-image`} />
+		<div className='boxes overflow-hidden rounded-lg relative h-[50vh]'>
+			<Image className={` da-image`} src={image} layout="fill" />
 			<div className='overlay flex items-center justify-center'>
 				<Link href={link} className=''>
 					<div
